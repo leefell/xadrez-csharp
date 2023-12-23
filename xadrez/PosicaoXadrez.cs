@@ -18,6 +18,9 @@ namespace xadrez
 
         public Posicao toPosicao()
         {
+            // O objetivo desse método é converter a posição que o usuário jogou para 
+            // a posição comum da matriz
+
             return new Posicao(8 - linha, coluna - 'a');
         }
         public override string ToString()
