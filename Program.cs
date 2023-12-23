@@ -1,4 +1,4 @@
-﻿using Tabuleiro;
+﻿using tabuleiro;
 
 namespace xandrezConsole
 {
@@ -7,10 +7,8 @@ namespace xandrezConsole
         static void Main(string[] args)
         {
 
-            Posicao p;
-            p = new Posicao(3, 4);
+            Tabuleiro tab = new Tabuleiro(8, 8);
 
-            Console.WriteLine(p);
             Console.ReadLine();
 
         }
