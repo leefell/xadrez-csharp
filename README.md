@@ -1,2 +1,3 @@
 # xadrez-csharp
-Work in progress
+## Work in progress
+this project is about exercising concepts 
