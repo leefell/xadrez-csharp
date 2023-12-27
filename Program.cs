@@ -16,9 +16,9 @@ namespace xandrezConsole
                     try
                     {
                         Console.Clear();
+                        Console.WriteLine("Para um melhor visualização: \nPeças Brancas = Amarelo | Peças Pretas = azul");
+                        Console.WriteLine();
                         Tela.imprimirPartida(partida);
-
-                        
 
                         Console.Write("\nOrigem: ");
                         Posicao origem = Tela.lerPosicaoXadrez().toPosicao();

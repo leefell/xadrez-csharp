@@ -32,12 +32,15 @@ namespace xandrezConsole
         {
             Console.WriteLine("Pecas capturadas: ");
             Console.Write("Brancas: ");
+            ConsoleColor aux1 = Console.ForegroundColor;
+            Console.ForegroundColor = ConsoleColor.Yellow;
             imprimirConjunto(partida.pecasCapturadas(Cor.Branca));
+            Console.ForegroundColor = aux1;
             Console.Write("\nPretas: ");
-            ConsoleColor aux = Console.ForegroundColor;
+            ConsoleColor aux2 = Console.ForegroundColor;
             Console.ForegroundColor = ConsoleColor.Blue;
             imprimirConjunto(partida.pecasCapturadas(Cor.Preta));
-            Console.ForegroundColor = aux;
+            Console.ForegroundColor = aux2;
             Console.WriteLine();
         }
 
@@ -111,7 +114,10 @@ namespace xandrezConsole
             {
                 if (peca.cor == Cor.Branca)
                 {
+                    ConsoleColor aux = Console.ForegroundColor;
+                    Console.ForegroundColor = ConsoleColor.Yellow;
                     Console.Write(peca);
+                    Console.ForegroundColor = aux;
                 }
                 else
                 {
