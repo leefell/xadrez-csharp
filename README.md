@@ -1,6 +1,4 @@
-# Projeto em desenvolvimento
-
-# Jogo de Xadrez em Console
+#Jogo de Xadrez em Console
 
 - Este é um projeto de jogo de xadrez desenvolvido em C# para ser jogado no console.
 ---
