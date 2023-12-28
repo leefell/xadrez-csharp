@@ -1,4 +1,4 @@
-# Projeto em desenvolvimento - 70% concluído.
+# Projeto em desenvolvimento
 
 # Jogo de Xadrez em Console
 
@@ -42,11 +42,11 @@ Para executar:
 3. Compile e execute o projeto.
 4. Siga as instruções no console para jogar, usando as regras básicas do xadrez.
 
-## A fazer: 
+## Lições
 
-- Continuar a implementação das regras e movimentações para todas as peças.
-- Adicionar funcionalidades como verificar xeque, xeque-mate e outras condições de vitória.
-- Melhorar a experiência do usuário no console.
+- Geral: Esse projeto atualmente foi o mais longo em que trabalhei, usei diversos conceitos da orientação à objetos, entendo sua necessidade e motivo de existir.
+
+- Dificuldades: Ao iniciar o projeto, enfrentei desafios significativos relacionados à abstração de conceitos e à minha falta de familiaridade com o xadrez. No entanto, vi essa situação como uma oportunidade para me desafiar. Esta experiência não apenas ampliou meu entendimento sobre abstração e lógica, mas também me motivou a aprender sobre o jogo de xadrez.
 
 ## Contribuindo
 
