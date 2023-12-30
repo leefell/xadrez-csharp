@@ -18,12 +18,16 @@ O projeto foi dividido em namespaces para gerenciar a estrutura básica do tabul
 - **TabuleiroException**: Exceção personalizada para erros relacionados ao tabuleiro.
 - **Peca**: Classe abstrata que serve como base para as peças do jogo.
 
-### Namespace: xadrez
+## Namespace: xadrez
 
 - **PartidaDeXadrez**: Classe que gerencia a partida de xadrez, incluindo a lógica de movimentação das peças e validações de jogadas.
 - **PosicaoXadrez**: Classe auxiliar que permite converter uma posição no formato do xadrez para a posição na matriz do tabuleiro.
 - **Rei**: Classe que representa a peça Rei com suas regras de movimentação.
 - **Torre**: Classe que representa a peça Torre com suas regras de movimentação.
+- **Bispo**: Classe que representa a peça Bispo com suas regras de movimentação, movendo-se na diagonal.
+- **Cavalo**: Classe que representa a peça Cavalo com suas regras de movimentação, movendo-se em forma de "L".
+- **Dama**: Classe que representa a peça Dama, também conhecida como Rainha, com suas regras de movimentação que combinam movimentos de torre e bispo.
+- **Peao**: Classe que representa a peça Peão com suas regras de movimentação, incluindo movimentos básicos, captura e promoção.
 
 ## Funcionalidades
 
