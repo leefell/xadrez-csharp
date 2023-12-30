@@ -28,8 +28,9 @@ O projeto foi dividido em namespaces para gerenciar a estrutura básica do tabul
 ## Funcionalidades
 
 - Posicionamento de peças no tabuleiro.
-- Lógica de movimentação para as peças Rei e Torre.
+- Lógica de movimentação para as peças.
 - Validações para movimentos possíveis e jogadas.
+- Jogadas especias implementadas.
 
 ## Como executar
 
