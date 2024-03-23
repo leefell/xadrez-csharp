@@ -1,6 +1,6 @@
 # Jogo de Xadrez em Console
 
-- Este é um projeto de jogo de xadrez desenvolvido em C# para ser jogado no console.
+- Este é um projeto de jogo de xadrez desenvolvido em C# para ser jogado no console. Desenvolvido no curso 'C# COMPLETO Programação Orientada a Objetos + Projetos' oferecido na Udemy pelo profesor Nélio Alves.
 ---
 ### Objetivo
 
